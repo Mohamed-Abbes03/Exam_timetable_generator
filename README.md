@@ -1,4 +1,4 @@
-Exam Timetable Generator - Genetic Algorithm Solution
+# Exam-Timetabling-Optimization - Genetic Algorithm Solution
 📝 Project Overview
 
 This project implements a Genetic Algorithm (GA) solution for generating optimal exam timetables, addressing the complex constraints of:
@@ -11,26 +11,26 @@ This project implements a Genetic Algorithm (GA) solution for generating optimal
 
     Timeslot management
 
-The system features both traditional evolutionary approaches and an advanced co-evolution strategy.
-🖼️ Screenshots
-Course Selection Interface
+The system features both traditional evolutionary approaches and an advanced co-evolution strategy.<br>
+    
+🖼 Screenshots<br>
 
-Course Selection
-Traditional Evolution Timetable
+![Screenshot 2025-05-16 221347](https://github.com/user-attachments/assets/d900cb29-d5c1-4dd4-8335-f083537fb36c)
 
-Traditional Evolution
-Co-Evolution Timetable
+![Screenshot 2025-05-16 221403](https://github.com/user-attachments/assets/d8e11656-f93c-4265-b9d6-a50ea816ad12)
 
-Co-Evolution
-Fitness Comparison
+![Screenshot 2025-05-16 221458](https://github.com/user-attachments/assets/3efd4eda-5e9a-49d9-9965-b721b85bd7c9)
 
-Fitness Comparison
-Fitness Progress
+![Screenshot 2025-05-16 221509](https://github.com/user-attachments/assets/93418792-0d09-430f-aba0-13a0a0eb59d4)
 
-Fitness Progress
-Fitness Over Generations
+![Screenshot 2025-05-16 221419](https://github.com/user-attachments/assets/370177cd-19af-4ba1-b775-f898afe5b072)
 
-Fitness Over Generations
+![Screenshot 2025-05-16 221447](https://github.com/user-attachments/assets/ebd15f59-de84-47d9-9c8c-a7b8f2ea9718)
+
+
+
+
+
 🧠 Key Features
 
     Advanced Genetic Algorithm Implementation
@@ -65,7 +65,7 @@ Fitness Over Generations
 
         Lecturer availability management
 
-🛠️ Technical Implementation
+🛠 Technical Implementation
 Core Algorithm Components
 
     Chromosome Representation: Encodes course-room-timeslot assignments
@@ -102,10 +102,10 @@ The system tracks and visualizes:
 
 🚀 Getting Started
 
-    Install required dependencies:
-    bash
+Install required dependencies:<br>
+bash
 
-pip install pandas matplotlib tkinter tqdm tabulate
+    pip install pandas matplotlib tkinter tqdm tabulate
 
 Prepare input CSV files:
 
@@ -123,10 +123,10 @@ Prepare input CSV files:
 
     lecturers_courses.csv
 
-Run the application:
+Run the application:<br>
 bash
 
-    python timetable_generator.py
+    python main.py
 
 📚 Documentation
 
